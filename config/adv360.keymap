@@ -60,7 +60,7 @@
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &kp LC(C_BRI_DN) &kp LC(C_BRI_UP)               &trans &trans &trans &trans &trans &trans              &kp C_VOLUME_UP &kp C_VOLUME_DOWN &trans  &trans  &trans
+        &trans &trans &trans &kp LC(C_BRI_DN) &kp LC(C_BRI_UP)               &kp SPACE &kp ENTER &trans &trans &kp DEL &kp BSPC              &kp C_VOLUME_UP &kp C_VOLUME_DOWN &trans  &trans  &trans
       >;
     };
     mod {
@@ -73,23 +73,23 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
-    extra1 { 
-      display-name = "Red";    
+    extra1 {
+      display-name = "Red";
       status = "reserved";
     };
 
-    extra2 { 
-      display-name = "Purple";    
+    extra2 {
+      display-name = "Purple";
       status = "reserved";
     };
 
-    extra3 { 
-      display-name = "Cyan";    
+    extra3 {
+      display-name = "Cyan";
       status = "reserved";
     };
 
-    extra4 { 
-      display-name = "Yellow";    
+    extra4 {
+      display-name = "Yellow";
       status = "reserved";
     };
   };
